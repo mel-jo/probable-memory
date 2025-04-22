@@ -1,0 +1,6 @@
+ERROR! File not found (contigs):  
+
+In case you have troubles running QUAST, you can write to quast.support@cab.spbu.ru
+or report an issue on our GitHub repository https://github.com/ablab/quast/issues
+Please provide us with quast.log file from the output directory.
+/var/spool/slurmd/job9893625/slurm_script: line 26: --threads: command not found

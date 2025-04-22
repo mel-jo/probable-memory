@@ -1,0 +1,36 @@
+
+EXITING because of fatal ERROR: not enough memory for BAM sorting: 
+SOLUTION: re-run STAR with at least --limitBAMsortRAM 1440569206
+Apr 21 19:28:50 ...... FATAL ERROR, exiting
+
+EXITING because of fatal ERROR: not enough memory for BAM sorting: 
+SOLUTION: re-run STAR with at least --limitBAMsortRAM 1359902480
+Apr 21 19:40:25 ...... FATAL ERROR, exiting
+
+EXITING because of fatal ERROR: not enough memory for BAM sorting: 
+SOLUTION: re-run STAR with at least --limitBAMsortRAM 1322165433
+Apr 21 19:53:22 ...... FATAL ERROR, exiting
+
+EXITING because of fatal ERROR: not enough memory for BAM sorting: 
+SOLUTION: re-run STAR with at least --limitBAMsortRAM 1450070318
+Apr 21 20:09:02 ...... FATAL ERROR, exiting
+
+EXITING because of fatal ERROR: not enough memory for BAM sorting: 
+SOLUTION: re-run STAR with at least --limitBAMsortRAM 1479065546
+Apr 21 20:28:27 ...... FATAL ERROR, exiting
+
+EXITING because of fatal ERROR: not enough memory for BAM sorting: 
+SOLUTION: re-run STAR with at least --limitBAMsortRAM 1423998919
+Apr 21 20:46:58 ...... FATAL ERROR, exiting
+
+EXITING because of fatal ERROR: not enough memory for BAM sorting: 
+SOLUTION: re-run STAR with at least --limitBAMsortRAM 1394741292
+Apr 21 21:03:39 ...... FATAL ERROR, exiting
+
+EXITING because of fatal ERROR: not enough memory for BAM sorting: 
+SOLUTION: re-run STAR with at least --limitBAMsortRAM 1423342326
+Apr 21 21:20:36 ...... FATAL ERROR, exiting
+
+EXITING because of fatal ERROR: not enough memory for BAM sorting: 
+SOLUTION: re-run STAR with at least --limitBAMsortRAM 1400600335
+Apr 21 21:41:11 ...... FATAL ERROR, exiting

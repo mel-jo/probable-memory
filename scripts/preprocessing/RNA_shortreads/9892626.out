@@ -1,0 +1,28 @@
+Analysis complete for SRR24516457_1_paired.fastq.gz
+Analysis complete for SRR24516458_1_paired.fastq.gz
+Analysis complete for SRR24516458_2_paired.fastq.gz
+Analysis complete for SRR24516457_2_paired.fastq.gz
+Analysis complete for SRR24516456_1_paired.fastq.gz
+Analysis complete for SRR24516456_2_paired.fastq.gz
+Analysis complete for SRR24516459_1_paired.fastq.gz
+Analysis complete for SRR24516459_2_paired.fastq.gz
+Analysis complete for SRR24516461_1_paired.fastq.gz
+Analysis complete for SRR24516461_2_paired.fastq.gz
+Analysis complete for SRR24516460_1_paired.fastq.gz
+Analysis complete for SRR24516460_2_paired.fastq.gz
+Analysis complete for SRR24516462_1_paired.fastq.gz
+Analysis complete for SRR24516462_2_paired.fastq.gz
+Analysis complete for SRR24516463_1_paired.fastq.gz
+Analysis complete for SRR24516463_2_paired.fastq.gz
+Analysis complete for SRR24516464_1_paired.fastq.gz
+Analysis complete for SRR24516464_2_paired.fastq.gz
+
+/// MultiQC 🔍 v1.22.2
+
+     version_check | MultiQC Version v1.28 now available!
+       file_search | Search path: /home/melvi/project/analyses_results/preprocess/rna_shortreads/after_qc
+
+            fastqc | Found 18 reports
+     write_results | Data        : ../../../analyses_results/preprocess/rna_shortreads/after_qc/multiqc_report/multiqc_data
+     write_results | Report      : ../../../analyses_results/preprocess/rna_shortreads/after_qc/multiqc_report/multiqc_report.html
+           multiqc | MultiQC complete

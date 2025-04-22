@@ -1,0 +1,63 @@
+	STAR --genomeDir /proj/uppmax2025-3-3/nobackup/work/melvi/de_analysis/star/genome_index --readFilesIn /proj/uppmax2025-3-3/nobackup/work/melvi/data/processed_reads/RNA_short_reads/SRR24516456_1_paired.fastq.gz /proj/uppmax2025-3-3/nobackup/work/melvi/data/processed_reads/RNA_short_reads/SRR24516456_2_paired.fastq.gz --readFilesCommand zcat --outFileNamePrefix /proj/uppmax2025-3-3/nobackup/work/melvi/de_analysis/star/mapped_reads/SRR24516456_ --outSAMtype BAM SortedByCoordinate --runThreadN 2
+	STAR version: 2.7.11a   compiled: 2023-11-14T12:13:04+0100 rackham5.uppmax.uu.se:/sw/bioinfo/star/2.7.11a/src/STAR-2.7.11a/source
+Apr 21 19:12:28 ..... started STAR run
+Apr 21 19:12:28 ..... loading genome
+Apr 21 19:12:28 ..... started mapping
+Apr 21 19:28:50 ..... finished mapping
+Apr 21 19:28:50 ..... started sorting BAM
+	STAR --genomeDir /proj/uppmax2025-3-3/nobackup/work/melvi/de_analysis/star/genome_index --readFilesIn /proj/uppmax2025-3-3/nobackup/work/melvi/data/processed_reads/RNA_short_reads/SRR24516457_1_paired.fastq.gz /proj/uppmax2025-3-3/nobackup/work/melvi/data/processed_reads/RNA_short_reads/SRR24516457_2_paired.fastq.gz --readFilesCommand zcat --outFileNamePrefix /proj/uppmax2025-3-3/nobackup/work/melvi/de_analysis/star/mapped_reads/SRR24516457_ --outSAMtype BAM SortedByCoordinate --runThreadN 2
+	STAR version: 2.7.11a   compiled: 2023-11-14T12:13:04+0100 rackham5.uppmax.uu.se:/sw/bioinfo/star/2.7.11a/src/STAR-2.7.11a/source
+Apr 21 19:28:50 ..... started STAR run
+Apr 21 19:28:50 ..... loading genome
+Apr 21 19:28:50 ..... started mapping
+Apr 21 19:40:25 ..... finished mapping
+Apr 21 19:40:25 ..... started sorting BAM
+	STAR --genomeDir /proj/uppmax2025-3-3/nobackup/work/melvi/de_analysis/star/genome_index --readFilesIn /proj/uppmax2025-3-3/nobackup/work/melvi/data/processed_reads/RNA_short_reads/SRR24516458_1_paired.fastq.gz /proj/uppmax2025-3-3/nobackup/work/melvi/data/processed_reads/RNA_short_reads/SRR24516458_2_paired.fastq.gz --readFilesCommand zcat --outFileNamePrefix /proj/uppmax2025-3-3/nobackup/work/melvi/de_analysis/star/mapped_reads/SRR24516458_ --outSAMtype BAM SortedByCoordinate --runThreadN 2
+	STAR version: 2.7.11a   compiled: 2023-11-14T12:13:04+0100 rackham5.uppmax.uu.se:/sw/bioinfo/star/2.7.11a/src/STAR-2.7.11a/source
+Apr 21 19:40:25 ..... started STAR run
+Apr 21 19:40:25 ..... loading genome
+Apr 21 19:40:26 ..... started mapping
+Apr 21 19:53:22 ..... finished mapping
+Apr 21 19:53:22 ..... started sorting BAM
+	STAR --genomeDir /proj/uppmax2025-3-3/nobackup/work/melvi/de_analysis/star/genome_index --readFilesIn /proj/uppmax2025-3-3/nobackup/work/melvi/data/processed_reads/RNA_short_reads/SRR24516459_1_paired.fastq.gz /proj/uppmax2025-3-3/nobackup/work/melvi/data/processed_reads/RNA_short_reads/SRR24516459_2_paired.fastq.gz --readFilesCommand zcat --outFileNamePrefix /proj/uppmax2025-3-3/nobackup/work/melvi/de_analysis/star/mapped_reads/SRR24516459_ --outSAMtype BAM SortedByCoordinate --runThreadN 2
+	STAR version: 2.7.11a   compiled: 2023-11-14T12:13:04+0100 rackham5.uppmax.uu.se:/sw/bioinfo/star/2.7.11a/src/STAR-2.7.11a/source
+Apr 21 19:53:22 ..... started STAR run
+Apr 21 19:53:22 ..... loading genome
+Apr 21 19:53:23 ..... started mapping
+Apr 21 20:09:02 ..... finished mapping
+Apr 21 20:09:02 ..... started sorting BAM
+	STAR --genomeDir /proj/uppmax2025-3-3/nobackup/work/melvi/de_analysis/star/genome_index --readFilesIn /proj/uppmax2025-3-3/nobackup/work/melvi/data/processed_reads/RNA_short_reads/SRR24516460_1_paired.fastq.gz /proj/uppmax2025-3-3/nobackup/work/melvi/data/processed_reads/RNA_short_reads/SRR24516460_2_paired.fastq.gz --readFilesCommand zcat --outFileNamePrefix /proj/uppmax2025-3-3/nobackup/work/melvi/de_analysis/star/mapped_reads/SRR24516460_ --outSAMtype BAM SortedByCoordinate --runThreadN 2
+	STAR version: 2.7.11a   compiled: 2023-11-14T12:13:04+0100 rackham5.uppmax.uu.se:/sw/bioinfo/star/2.7.11a/src/STAR-2.7.11a/source
+Apr 21 20:09:02 ..... started STAR run
+Apr 21 20:09:02 ..... loading genome
+Apr 21 20:09:02 ..... started mapping
+Apr 21 20:28:27 ..... finished mapping
+Apr 21 20:28:27 ..... started sorting BAM
+	STAR --genomeDir /proj/uppmax2025-3-3/nobackup/work/melvi/de_analysis/star/genome_index --readFilesIn /proj/uppmax2025-3-3/nobackup/work/melvi/data/processed_reads/RNA_short_reads/SRR24516461_1_paired.fastq.gz /proj/uppmax2025-3-3/nobackup/work/melvi/data/processed_reads/RNA_short_reads/SRR24516461_2_paired.fastq.gz --readFilesCommand zcat --outFileNamePrefix /proj/uppmax2025-3-3/nobackup/work/melvi/de_analysis/star/mapped_reads/SRR24516461_ --outSAMtype BAM SortedByCoordinate --runThreadN 2
+	STAR version: 2.7.11a   compiled: 2023-11-14T12:13:04+0100 rackham5.uppmax.uu.se:/sw/bioinfo/star/2.7.11a/src/STAR-2.7.11a/source
+Apr 21 20:28:27 ..... started STAR run
+Apr 21 20:28:27 ..... loading genome
+Apr 21 20:28:28 ..... started mapping
+Apr 21 20:46:58 ..... finished mapping
+Apr 21 20:46:58 ..... started sorting BAM
+	STAR --genomeDir /proj/uppmax2025-3-3/nobackup/work/melvi/de_analysis/star/genome_index --readFilesIn /proj/uppmax2025-3-3/nobackup/work/melvi/data/processed_reads/RNA_short_reads/SRR24516462_1_paired.fastq.gz /proj/uppmax2025-3-3/nobackup/work/melvi/data/processed_reads/RNA_short_reads/SRR24516462_2_paired.fastq.gz --readFilesCommand zcat --outFileNamePrefix /proj/uppmax2025-3-3/nobackup/work/melvi/de_analysis/star/mapped_reads/SRR24516462_ --outSAMtype BAM SortedByCoordinate --runThreadN 2
+	STAR version: 2.7.11a   compiled: 2023-11-14T12:13:04+0100 rackham5.uppmax.uu.se:/sw/bioinfo/star/2.7.11a/src/STAR-2.7.11a/source
+Apr 21 20:46:58 ..... started STAR run
+Apr 21 20:46:58 ..... loading genome
+Apr 21 20:46:59 ..... started mapping
+Apr 21 21:03:39 ..... finished mapping
+Apr 21 21:03:39 ..... started sorting BAM
+	STAR --genomeDir /proj/uppmax2025-3-3/nobackup/work/melvi/de_analysis/star/genome_index --readFilesIn /proj/uppmax2025-3-3/nobackup/work/melvi/data/processed_reads/RNA_short_reads/SRR24516463_1_paired.fastq.gz /proj/uppmax2025-3-3/nobackup/work/melvi/data/processed_reads/RNA_short_reads/SRR24516463_2_paired.fastq.gz --readFilesCommand zcat --outFileNamePrefix /proj/uppmax2025-3-3/nobackup/work/melvi/de_analysis/star/mapped_reads/SRR24516463_ --outSAMtype BAM SortedByCoordinate --runThreadN 2
+	STAR version: 2.7.11a   compiled: 2023-11-14T12:13:04+0100 rackham5.uppmax.uu.se:/sw/bioinfo/star/2.7.11a/src/STAR-2.7.11a/source
+Apr 21 21:03:39 ..... started STAR run
+Apr 21 21:03:39 ..... loading genome
+Apr 21 21:03:40 ..... started mapping
+Apr 21 21:20:36 ..... finished mapping
+Apr 21 21:20:36 ..... started sorting BAM
+	STAR --genomeDir /proj/uppmax2025-3-3/nobackup/work/melvi/de_analysis/star/genome_index --readFilesIn /proj/uppmax2025-3-3/nobackup/work/melvi/data/processed_reads/RNA_short_reads/SRR24516464_1_paired.fastq.gz /proj/uppmax2025-3-3/nobackup/work/melvi/data/processed_reads/RNA_short_reads/SRR24516464_2_paired.fastq.gz --readFilesCommand zcat --outFileNamePrefix /proj/uppmax2025-3-3/nobackup/work/melvi/de_analysis/star/mapped_reads/SRR24516464_ --outSAMtype BAM SortedByCoordinate --runThreadN 2
+	STAR version: 2.7.11a   compiled: 2023-11-14T12:13:04+0100 rackham5.uppmax.uu.se:/sw/bioinfo/star/2.7.11a/src/STAR-2.7.11a/source
+Apr 21 21:20:36 ..... started STAR run
+Apr 21 21:20:36 ..... loading genome
+Apr 21 21:20:37 ..... started mapping
+Apr 21 21:41:10 ..... finished mapping
+Apr 21 21:41:11 ..... started sorting BAM

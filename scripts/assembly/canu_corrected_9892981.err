@@ -1,0 +1,2 @@
+canu/2.2 has the useGrid option default set to useGrid=false. This can be overriden by another configuration file or a command-line option.
+cp: cannot stat ‘canu_corrected_out’: No such file or directory

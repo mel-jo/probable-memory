@@ -1,0 +1,19 @@
+#!/bin/bash
+#SBATCH -A uppmax2025-3-3
+#SBATCH -p core
+#SBATCH -n 8
+#SBATCH -t 24:00:00
+#SBATCH -M snowy
+#SBATCH -J flye_processed_SRR24413066
+#SBATCH -o /proj/uppmax2025-3-3/nobackup/work/melvi/assembly/processed/SRR24413066/flye_SRR24413066.out
+#SBATCH -e /proj/uppmax2025-3-3/nobackup/work/melvi/assembly/processed/SRR24413066/flye_SRR24413066.err
+#SBATCH --mail-user=josemelvin1403@gmail.com
+#SBATCH --mail-type=END,FAIL
+
+module load bioinfo-tools
+module load Flye
+
+flye --nano-corr /proj/uppmax2025-3-3/nobackup/work/melvi/data/processed_reads/DNA_long_reads/SRR24413066/SRR24413066.correctedReads.fasta.gz \
+     --out-dir /proj/uppmax2025-3-3/nobackup/work/melvi/assembly/processed/SRR24413066 \
+     --genome-size 9.6m \
+     --threads 8
