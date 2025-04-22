@@ -35,4 +35,3 @@ for file1 in "$INPUT_DIR"/*_1.fastq.gz; do
 done
 
 echo "Trimmomatic RNA trimming complete."
-

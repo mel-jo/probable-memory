@@ -1,9 +1,0 @@
-!!!!! WARNING: Could not move Log.out file from ./Log.out into /proj/uppmax2025-3-3/nobackup/work/melvi/de_analysis/star/genome_index/Log.out. Will keep ./Log.out
-
-
-Fatal INPUT FILE error, no exon lines in the GTF file: /proj/uppmax2025-3-3/nobackup/work/melvi/annotation/refined_prokka/SRR24413072/SRR24413072_refined.gff
-Solution: check the formatting of the GTF file, it must contain some lines with exon in the 3rd column.
-          Make sure the GTF file is unzipped.
-          If exons are marked with a different word, use --sjdbGTFfeatureExon .
-
-Apr 21 18:44:33 ...... FATAL ERROR, exiting
