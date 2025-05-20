@@ -28,4 +28,6 @@ for file1 in "$INPUT_DIR"/*_1.fastq.gz; do
     fastqc "$file1" "$file2" -o "$OUTPUT_DIR" --threads 4
 done
 
-echo "FastQC analysis complete."
+#aggregating with multiqc
+multiqc /home/melvi/project/analyses_results/preprocess/dna_shortreads/init_qc \
+-o /home/melvi/project/analyses_results/preprocess/dna_shortreads/init_qc/multiqc_report
