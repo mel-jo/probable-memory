@@ -21,4 +21,6 @@ echo "Running FastQC on all short-read FASTQ files..."
 
 fastqc "$INPUT_DIR"/*_paired.fastq.gz -o "$OUTPUT_DIR" --threads 4
 
-echo "FastQC complete."
+#aggregating with multiqc
+multiqc /home/melvi/project/analyses_results/preprocess/dna_shortreads/after_qc \
+-o /home/melvi/project/analyses_results/preprocess/dna_shortreads/after_qc/multiqc_report
