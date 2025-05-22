@@ -17,14 +17,11 @@ INPUT_DIR="/home/melvi/project/data/raw_data/DNA_short_reads"
 OUTPUT_DIR="/home/melvi/project/analyses_results/preprocess/dna_shortreads/init_qc"
 mkdir -p "$OUTPUT_DIR"
 
-echo "Running FastQC on all short-read FASTQ files..."
-
 # Loop over all *_1.fastq.gz files and run FastQC on both pairs
 for file1 in "$INPUT_DIR"/*_1.fastq.gz; do
     sample=$(basename "$file1" _1.fastq.gz)
     file2="$INPUT_DIR/${sample}_2.fastq.gz"
 
-    echo "Processing sample: $sample"
     fastqc "$file1" "$file2" -o "$OUTPUT_DIR" --threads 4
 done
 
