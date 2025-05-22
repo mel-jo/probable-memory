@@ -17,8 +17,6 @@ INPUT_DIR="/proj/uppmax2025-3-3/nobackup/work/melvi/data/processed_reads/DNA_sho
 OUTPUT_DIR="/home/melvi/project/analyses_results/preprocess/dna_shortreads/after_qc"
 mkdir -p "$OUTPUT_DIR"
 
-echo "Running FastQC on all short-read FASTQ files..."
-
 fastqc "$INPUT_DIR"/*_paired.fastq.gz -o "$OUTPUT_DIR" --threads 4
 
 #aggregating with multiqc
