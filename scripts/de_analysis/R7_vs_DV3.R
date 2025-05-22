@@ -1,11 +1,10 @@
 # Install & load
 if (!requireNamespace("BiocManager", quietly=TRUE)) install.packages("BiocManager")
-pkgs <- c("DESeq2","edgeR","apeglm","tidyverse","pheatmap")
+pkgs <- c("DESeq2","edgeR","apeglm","tidyverse","pheatmap", "ggrepel")
 BiocManager::install(pkgs, ask=FALSE, update=FALSE)
 lapply(pkgs, library, character.only=TRUE)
 
 # Read data & define samples
-
 counts <- read.delim(
   "C:/Users/josem/OneDrive/Documents/Genome Analysis/de_analysis/bwa_featurecounts_matrix.txt",
   comment.char="#", row.names=1, check.names=FALSE
@@ -46,7 +45,6 @@ cat("[Unfiltered] tested:", nrow(res_unf_shr),
     "| significant:", nrow(sig_unf), "\n")
 
 # CPM-filtered DESeq2
-
 dge <- DGEList(counts_sub)
 keep <- rowSums(cpm(dge) > 1) >= 3
 counts_filt <- counts_sub[keep, ]
@@ -71,11 +69,7 @@ write.csv(
   row.names = FALSE
 )
 
-library(DESeq2)
-library(tidyverse)
-library(pheatmap)
-library(ggrepel)
-
+# plotting 
 vsd <- vst(dds_filt, blind=FALSE)
 
 # extract matrix & sample info
